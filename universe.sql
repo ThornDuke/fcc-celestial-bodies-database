@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 16.3
--- Dumped by pg_dump version 16.3
+-- Dumped from database version 12.19
+-- Dumped by pg_dump version 12.19
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -21,7 +21,7 @@ DROP DATABASE universe;
 -- Name: universe; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE universe WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE_PROVIDER = libc LOCALE = 'C';
+CREATE DATABASE universe WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C' LC_CTYPE = 'C';
 
 
 ALTER DATABASE universe OWNER TO postgres;
@@ -74,7 +74,7 @@ CREATE SEQUENCE public.galaxy_galaxy_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.galaxy_galaxy_id_seq OWNER TO postgres;
+ALTER TABLE public.galaxy_galaxy_id_seq OWNER TO postgres;
 
 --
 -- Name: galaxy_galaxy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -114,7 +114,7 @@ CREATE SEQUENCE public.moon_moon_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.moon_moon_id_seq OWNER TO postgres;
+ALTER TABLE public.moon_moon_id_seq OWNER TO postgres;
 
 --
 -- Name: moon_moon_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -151,7 +151,7 @@ CREATE SEQUENCE public.osservations_osservation_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.osservations_osservation_id_seq OWNER TO postgres;
+ALTER TABLE public.osservations_osservation_id_seq OWNER TO postgres;
 
 --
 -- Name: osservations_osservation_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -192,7 +192,7 @@ CREATE SEQUENCE public.planet_planet_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.planet_planet_id_seq OWNER TO postgres;
+ALTER TABLE public.planet_planet_id_seq OWNER TO postgres;
 
 --
 -- Name: planet_planet_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -233,7 +233,7 @@ CREATE SEQUENCE public.star_star_id_seq
     CACHE 1;
 
 
-ALTER SEQUENCE public.star_star_id_seq OWNER TO postgres;
+ALTER TABLE public.star_star_id_seq OWNER TO postgres;
 
 --
 -- Name: star_star_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
@@ -496,4 +496,3 @@ ALTER TABLE ONLY public.star
 --
 -- PostgreSQL database dump complete
 --
-
