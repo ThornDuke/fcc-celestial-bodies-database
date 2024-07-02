@@ -293,26 +293,26 @@ INSERT INTO public.galaxy VALUES (6, 'G', NULL, '01 00.2', '-33 42', 'Sculptor D
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, 'Moon', 'Earth', 1738.0, 0, 'humanity', true, NULL);
-INSERT INTO public.moon VALUES (2, 'Phobos', 'Mars', 11267.0, 1877, 'Hall', true, NULL);
-INSERT INTO public.moon VALUES (3, 'Deimos', 'Mars', 6.2, 1877, 'Hall', true, NULL);
-INSERT INTO public.moon VALUES (4, 'Io', 'Jupiter', 1821.6, 1610, 'Galileo', false, NULL);
-INSERT INTO public.moon VALUES (5, 'Europa', 'Jupiter', 1560.8, 1610, 'Galileo', false, NULL);
-INSERT INTO public.moon VALUES (6, 'Ganymede', 'Jupiter', 2634.1, 1610, 'Galileo', false, NULL);
-INSERT INTO public.moon VALUES (7, 'Callisto', 'Jupiter', 2410.3, 1610, 'Galileo', false, NULL);
-INSERT INTO public.moon VALUES (8, 'Amalthea', 'Jupiter', 83.5, 1892, 'Barnard', false, NULL);
-INSERT INTO public.moon VALUES (9, 'Himalia', 'Jupiter', 69.8, 1905, 'Perrine', false, NULL);
-INSERT INTO public.moon VALUES (10, 'Elara', 'Jupiter', 43.0, 1905, 'Perrine', false, NULL);
-INSERT INTO public.moon VALUES (11, 'Pasiphae', 'Jupiter', 30.0, 1908, 'Melotte', false, NULL);
-INSERT INTO public.moon VALUES (12, 'Sinope', 'Jupiter', 19.0, 1914, 'Nicholson', false, NULL);
-INSERT INTO public.moon VALUES (13, 'Lisithea', 'Jupiter', 18.0, 1938, 'Nicholson', false, NULL);
-INSERT INTO public.moon VALUES (14, 'Carme', 'Jupiter', 23.0, 1938, 'Nicholson', false, NULL);
-INSERT INTO public.moon VALUES (15, 'Ananke', 'Jupiter', 14.0, 1951, 'Nicholson', false, NULL);
-INSERT INTO public.moon VALUES (16, 'Mimas', 'Saturn', 198.2, 1789, 'Herschel', false, NULL);
-INSERT INTO public.moon VALUES (17, 'Enceladus', 'Saturn', 252.1, 1789, 'Herschel', false, NULL);
-INSERT INTO public.moon VALUES (18, 'Tethys', 'Saturn', 533.1, 1686, 'Cassini', false, NULL);
-INSERT INTO public.moon VALUES (19, 'Dione', 'Saturn', 561.4, 1686, 'Cassini', false, NULL);
-INSERT INTO public.moon VALUES (20, 'Rhea', 'Saturn', 763.8, 1673, 'Cassini', false, NULL);
+INSERT INTO public.moon VALUES (1, 'Moon', 'Earth', 1738.0, 0, 'humanity', true, 4);
+INSERT INTO public.moon VALUES (2, 'Phobos', 'Mars', 11267.0, 1877, 'Hall', true, 4);
+INSERT INTO public.moon VALUES (3, 'Deimos', 'Mars', 6.2, 1877, 'Hall', true, 4);
+INSERT INTO public.moon VALUES (4, 'Io', 'Jupiter', 1821.6, 1610, 'Galileo', false, 4);
+INSERT INTO public.moon VALUES (5, 'Europa', 'Jupiter', 1560.8, 1610, 'Galileo', false, 4);
+INSERT INTO public.moon VALUES (6, 'Ganymede', 'Jupiter', 2634.1, 1610, 'Galileo', false, 4);
+INSERT INTO public.moon VALUES (7, 'Callisto', 'Jupiter', 2410.3, 1610, 'Galileo', false, 4);
+INSERT INTO public.moon VALUES (8, 'Amalthea', 'Jupiter', 83.5, 1892, 'Barnard', false, 4);
+INSERT INTO public.moon VALUES (9, 'Himalia', 'Jupiter', 69.8, 1905, 'Perrine', false, 4);
+INSERT INTO public.moon VALUES (10, 'Elara', 'Jupiter', 43.0, 1905, 'Perrine', false, 4);
+INSERT INTO public.moon VALUES (11, 'Pasiphae', 'Jupiter', 30.0, 1908, 'Melotte', false, 4);
+INSERT INTO public.moon VALUES (12, 'Sinope', 'Jupiter', 19.0, 1914, 'Nicholson', false, 4);
+INSERT INTO public.moon VALUES (13, 'Lisithea', 'Jupiter', 18.0, 1938, 'Nicholson', false, 4);
+INSERT INTO public.moon VALUES (14, 'Carme', 'Jupiter', 23.0, 1938, 'Nicholson', false, 4);
+INSERT INTO public.moon VALUES (15, 'Ananke', 'Jupiter', 14.0, 1951, 'Nicholson', false, 4);
+INSERT INTO public.moon VALUES (16, 'Mimas', 'Saturn', 198.2, 1789, 'Herschel', false, 4);
+INSERT INTO public.moon VALUES (17, 'Enceladus', 'Saturn', 252.1, 1789, 'Herschel', false, 4);
+INSERT INTO public.moon VALUES (18, 'Tethys', 'Saturn', 533.1, 1686, 'Cassini', false, 4);
+INSERT INTO public.moon VALUES (19, 'Dione', 'Saturn', 561.4, 1686, 'Cassini', false, 4);
+INSERT INTO public.moon VALUES (20, 'Rhea', 'Saturn', 763.8, 1673, 'Cassini', false, 4);
 
 
 --
@@ -328,30 +328,30 @@ INSERT INTO public.osservations VALUES (3, 'Padellame', '1999-03-09', 'Odoacria'
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 'Mercury', 'Sun', 0.00, 0.05, 0.38, NULL, false, NULL);
-INSERT INTO public.planet VALUES (2, 'Earth', 'Sun', 0.00, 1.00, 1.00, NULL, false, NULL);
-INSERT INTO public.planet VALUES (3, 'Jupiter', 'Sun', 0.00, 99.99, 10.73, NULL, false, NULL);
-INSERT INTO public.planet VALUES (4, 'd PC', 'Proxima Centauri', 4.24, 0.26, NULL, 'One disputed candidate', true, NULL);
-INSERT INTO public.planet VALUES (5, 'b L', 'Lalande', 8.30, 2.69, NULL, '1 candidate', true, NULL);
-INSERT INTO public.planet VALUES (6, 'Aegir', 'Epsilon Eridani', 10.48, 1.40, NULL, '1 inferred planet, 1 or possibly 2 inner debris discs, and an outer disc', true, NULL);
-INSERT INTO public.planet VALUES (7, 'b Lacaille', 'Lacaille 9532', 10.72, 1.40, NULL, '1 candidate', true, NULL);
-INSERT INTO public.planet VALUES (8, 'b Ross', 'Ross 128', 11.00, 1.40, NULL, NULL, true, NULL);
-INSERT INTO public.planet VALUES (9, 'g TC', 'Tau Ceti', 11.92, 1.75, NULL, '4 disputed candidates', true, NULL);
-INSERT INTO public.planet VALUES (10, 'd GJ', 'GJ 1061', 11.98, 1.74, NULL, 'two solutions for ds orbit', true, NULL);
-INSERT INTO public.planet VALUES (11, 'b YZ C', 'YZ Ceti', 12.12, 0.70, NULL, NULL, true, NULL);
-INSERT INTO public.planet VALUES (12, 'e L', 'Luyten Star', 12.34, 1.18, NULL, NULL, true, NULL);
+INSERT INTO public.planet VALUES (1, 'Mercury', 'Sun', 0.00, 0.05, 0.38, NULL, false, 3);
+INSERT INTO public.planet VALUES (2, 'Earth', 'Sun', 0.00, 1.00, 1.00, NULL, false, 3);
+INSERT INTO public.planet VALUES (3, 'Jupiter', 'Sun', 0.00, 99.99, 10.73, NULL, false, 3);
+INSERT INTO public.planet VALUES (4, 'd PC', 'Proxima Centauri', 4.24, 0.26, NULL, 'One disputed candidate', true, 3);
+INSERT INTO public.planet VALUES (5, 'b L', 'Lalande', 8.30, 2.69, NULL, '1 candidate', true, 3);
+INSERT INTO public.planet VALUES (6, 'Aegir', 'Epsilon Eridani', 10.48, 1.40, NULL, '1 inferred planet, 1 or possibly 2 inner debris discs, and an outer disc', true, 3);
+INSERT INTO public.planet VALUES (7, 'b Lacaille', 'Lacaille 9532', 10.72, 1.40, NULL, '1 candidate', true, 3);
+INSERT INTO public.planet VALUES (8, 'b Ross', 'Ross 128', 11.00, 1.40, NULL, NULL, true, 3);
+INSERT INTO public.planet VALUES (9, 'g TC', 'Tau Ceti', 11.92, 1.75, NULL, '4 disputed candidates', true, 3);
+INSERT INTO public.planet VALUES (10, 'd GJ', 'GJ 1061', 11.98, 1.74, NULL, 'two solutions for ds orbit', true, 3);
+INSERT INTO public.planet VALUES (11, 'b YZ C', 'YZ Ceti', 12.12, 0.70, NULL, NULL, true, 3);
+INSERT INTO public.planet VALUES (12, 'e L', 'Luyten Star', 12.34, 1.18, NULL, NULL, true, 3);
 
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (1, 'Westerlund 1-26', 2550, 25, 'S3V', 5000, 'Cygnus', 11.14, NULL);
-INSERT INTO public.star VALUES (2, 'VV Cephei A', 1900, 18, 'S2V', 5000, 'Cepheus', 4.91, NULL);
-INSERT INTO public.star VALUES (3, 'UY Scuti', 1900, 10, 'S4V', 9500, 'Scutum', 12.25, NULL);
-INSERT INTO public.star VALUES (4, 'WOH G64', 1550, 22, 'S5V', 170000, 'Dorado', 18.46, NULL);
-INSERT INTO public.star VALUES (5, 'VX Sagittarii', 1520, 12, 'S4V', 5100, 'Sagittarius', 11.72, NULL);
-INSERT INTO public.star VALUES (6, 'VY Canis Maioris', 1420, 17, 'S2V', 3500, 'Canis Major', 7.96, NULL);
+INSERT INTO public.star VALUES (1, 'Westerlund 1-26', 2550, 25, 'S3V', 5000, 'Cygnus', 11.14, 2);
+INSERT INTO public.star VALUES (2, 'VV Cephei A', 1900, 18, 'S2V', 5000, 'Cepheus', 4.91, 2);
+INSERT INTO public.star VALUES (3, 'UY Scuti', 1900, 10, 'S4V', 9500, 'Scutum', 12.25, 2);
+INSERT INTO public.star VALUES (4, 'WOH G64', 1550, 22, 'S5V', 170000, 'Dorado', 18.46, 2);
+INSERT INTO public.star VALUES (5, 'VX Sagittarii', 1520, 12, 'S4V', 5100, 'Sagittarius', 11.72, 2);
+INSERT INTO public.star VALUES (6, 'VY Canis Maioris', 1420, 17, 'S2V', 3500, 'Canis Major', 7.96, 2);
 
 
 --
